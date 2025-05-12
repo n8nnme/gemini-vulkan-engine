@@ -51,7 +51,7 @@ This project is a C++ 3D game engine skeleton built using the Vulkan 1.3 graphic
 *   **spdlog:** Fast C++ logging library.
 
 ## Project Structure
-'''''
+```bash
 VulkanEngine/
 ├── src/ 									# Source code
 │ ├── core/ 								# Core engine systems (Application, Window, Input, Log, ServiceLocator)
@@ -69,7 +69,7 @@ VulkanEngine/
 │ └── shaders/ 								# GLSL shaders (.vert, .frag)
 ├── CMakeLists.txt 							# CMake build configuration
 └── README.md 								# This file
-'''''
+```
 
 ## Building the Project
 
