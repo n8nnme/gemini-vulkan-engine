@@ -53,22 +53,22 @@ This project is a C++ 3D game engine skeleton built using the Vulkan 1.3 graphic
 ## Project Structure
 ```bash
 VulkanEngine/
-├── src/ 									# Source code
-│ ├── core/ 								# Core engine systems (Application, Window, Input, Log, ServiceLocator)
-│ ├── graphics/ 							# Vulkan rendering subsystem (Renderer, Context, Swapchain, Buffers, etc.)
-│ ├── scene/ 								# Scene graph and component system (Scene, GameObject, Components)
-│ ├── assets/ 								# Asset loading and management (AssetManager, ModelLoader, asset structs)
-│ ├── ui/ 									# User Interface (UIManager for ImGui)
-│ ├── physics/ 								# Physics system (PhysicsSystem, Bullet integration components)
-│ └── main.cpp 								# Main entry point
-├── external/ 								# Placeholder for manually added libraries (e.g., stb_image.h)
+├── src/                  # Source code
+│ ├── core/               # Core engine systems (Application, Window, Input, Log, ServiceLocator)
+│ ├── graphics/           # Vulkan rendering subsystem (Renderer, Context, Swapchain, Buffers, etc.)
+│ ├── scene/              # Scene graph and component system (Scene, GameObject, Components)
+│ ├── assets/             # Asset loading and management (AssetManager, ModelLoader, asset structs)
+│ ├── ui/                 # User Interface (UIManager for ImGui)
+│ ├── physics/            # Physics system (PhysicsSystem, Bullet integration components)
+│ └── main.cpp            # Main entry point
+├── external/             # Placeholder for manually added libraries (e.g., stb_image.h)
 │ └── stb/
-├── assets/ 								# Game assets to be loaded
-│ ├── models/ 								# .obj, .fbx files
-│ │ └── textures/ 							# Texture files if not alongside models
-│ └── shaders/ 								# GLSL shaders (.vert, .frag)
-├── CMakeLists.txt 							# CMake build configuration
-└── README.md 								# This file
+├── assets/               # Game assets to be loaded
+│ ├── models/             # .obj, .fbx files
+│ │ └── textures/         # Texture files if not alongside models
+│ └── shaders/            # GLSL shaders (.vert, .frag)
+├── CMakeLists.txt        # CMake build configuration
+└── README.md             # This file
 ```
 
 ## Building the Project
@@ -81,8 +81,8 @@ VulkanEngine/
 
 2.  **Clone the repository (if it were one):**
     ```bash
-    # git clone <repository_url>
-    # cd VulkanEngine
+    # git clone https://github.com/n8nnme/gemini-vulkan-engine
+    # cd gemini-vulkan-engine
     ```
     *(Since this is a code dump, you'll create the files manually, ANOTHER AI SOLUTION FOR SKELET JAB)*
 
@@ -119,7 +119,7 @@ VulkanEngine/
 *   **Error Handling:** While basic `VK_CHECK` and logging are present, error handling could be more robust for production.
 *   **Performance:** This is a skeleton; many performance optimizations typical of a production engine are not implemented (e.g., advanced culling, multi-threaded rendering/asset loading, sophisticated memory management via VMA).
 
-## Future Development Ideas
+## Future Development Ideas (thanks to gemini, that gemini do in future)
 
 *   PBR Material System (Metallic-Roughness workflow).
 *   Advanced Lighting (Spotlights, Point Lights, Shadows).
